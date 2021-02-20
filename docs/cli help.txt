@@ -1,0 +1,41 @@
+###### Main Help #######
+
+CLI tool to start a Multi-user World server.
+
+Usage:
+
+    muwsvr [COMMAND] [OPTIONS]
+
+    Where COMMAND is one of:
+
+        start    starts the server.
+        version  prints muwsvr version.
+
+    Available options:
+
+        --help  shows this page.
+
+###### Start Help #######
+
+Starts the server with the parameters defined in the configuration file.
+
+Usage:
+
+    muwsvr start [OPTIONS]
+
+    Available options:
+
+        --help    shows this page.
+        --config  path to the configuration file (default=./config.yaml).
+
+###### Version Help #######
+
+Prints current muwsvr version.
+
+Usage:
+
+    muwsvr version [OPTIONS]
+
+    Available options:
+
+        --help shows this page.

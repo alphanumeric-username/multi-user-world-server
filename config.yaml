@@ -1,0 +1,12 @@
+# Network
+ip: localhost
+http_port: 8080
+udp_port: 45040
+
+# World
+world_file: ./worlds/main-world.json
+max_users: 16
+
+# Chat
+enable_chat: true
+max_messages: 512
