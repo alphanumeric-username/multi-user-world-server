@@ -26,7 +26,7 @@ Usage:
     Available options:
 
         --help    shows this page.
-        --config  path to the configuration file (default=./config.yaml).
+        --config-file  path to the configuration file (default=./config.yaml).
 
 ###### Version Help #######
 

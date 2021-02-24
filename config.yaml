@@ -8,5 +8,5 @@ world_file: ./worlds/main-world.json
 max_users: 16
 
 # Chat
-enable_chat: true
+enable_chat: false
 max_messages: 512

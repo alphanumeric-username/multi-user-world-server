@@ -1,0 +1,12 @@
+# Network
+ip: 0.0.0.0
+http_port: 8081
+udp_port: 45041
+
+# World
+world_file: ./worlds/alt-world.json
+max_users: 32
+
+# Chat
+enable_chat: true
+max_messages: 1024
