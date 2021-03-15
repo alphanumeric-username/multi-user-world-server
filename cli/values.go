@@ -5,7 +5,8 @@ import (
 	"os"
 )
 
-const version string = "0.0.2"
+//Version is the running server version
+const Version string = "0.0.3"
 
 func defaultConfigFilePath() (string, error) {
 	cwd, err := os.Getwd()

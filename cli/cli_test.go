@@ -8,7 +8,7 @@ import (
 
 func TestVersionParseNoArgs(t *testing.T) {
 	got, _, _ := ParseVersion([]string{})
-	want := NewVersionArguments(false, version)
+	want := NewVersionArguments(false, Version)
 
 	if got != want {
 		t.Errorf("ParseVersion([]string{}) got %+v but wanted %+v", got, want)
@@ -17,7 +17,7 @@ func TestVersionParseNoArgs(t *testing.T) {
 
 func TestVersionParseArgsHelp(t *testing.T) {
 	got, _, _ := ParseVersion([]string{"--help"})
-	want := NewVersionArguments(true, version)
+	want := NewVersionArguments(true, Version)
 
 	if got != want {
 		t.Errorf("ParseVersion([]string{\"--help\"}) got %+v but wanted %+v", got, want)

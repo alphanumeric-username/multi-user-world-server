@@ -5,6 +5,7 @@ import (
 	"os"
 
 	"github.com/alphanumeric-username/muwsvr/cli"
+	"github.com/alphanumeric-username/muwsvr/server"
 )
 
 func main() {
@@ -38,6 +39,7 @@ func main() {
 			fmt.Printf("\tmax_users: %d\n", serverConfig.MaxUsers)
 			fmt.Printf("\tenable_chat: %t\n", serverConfig.EnableChat)
 			fmt.Printf("\tmax_messages: %d\n", serverConfig.MaxMessages)
+			server.StartServer(serverConfig)
 			fmt.Println("Closing server...")
 
 		}

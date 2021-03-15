@@ -18,7 +18,7 @@ func ParseVersion(args []string) (VersionArguments, *flag.FlagSet, error) {
 	helpPtr := versionCmd.Bool("help", false, "prints this page.")
 	parseErr := versionCmd.Parse(args)
 	if parseErr == nil {
-		arguments = NewVersionArguments(*helpPtr, version)
+		arguments = NewVersionArguments(*helpPtr, Version)
 	}
 	return arguments, versionCmd, parseErr
 }
